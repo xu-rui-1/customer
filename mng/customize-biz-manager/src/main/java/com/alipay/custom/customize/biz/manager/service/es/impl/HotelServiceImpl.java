@@ -10,15 +10,11 @@ import com.alipay.custom.customize.biz.manager.service.es.HotelService;
 import com.alipay.custom.customize.common.base.web.PageResult;
 import com.alipay.custom.customize.common.base.web.RequestParams;
 import org.elasticsearch.index.query.BoolQueryBuilder;
-import org.elasticsearch.index.query.MatchAllQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
-import org.springframework.data.elasticsearch.core.SearchHit;
 import org.springframework.data.elasticsearch.core.SearchHits;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
-import org.springframework.data.elasticsearch.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -59,6 +55,11 @@ public class HotelServiceImpl implements HotelService {
         }));
 
         return new PageResult<>(totalHits, hotelDTOS);
+    }
+
+    @Override
+    public PageResult<List<HotelDTO>> searchLocal() {
+        return null;
     }
 
     private void buildBasicQuery(RequestParams params, BoolQueryBuilder boolQuery) {

@@ -35,4 +35,9 @@ public class ElasticSearchController {
 
         return hotelService.search(params);
     }
+
+    public PageResult<List<HotelDTO>> searchLocal() {
+        return hotelService.searchLocal();
+
+    }
 }

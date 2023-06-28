@@ -12,4 +12,6 @@ import java.util.List;
  */
 public interface HotelService {
     PageResult<List<HotelDTO>> search(RequestParams params);
+
+    PageResult<List<HotelDTO>> searchLocal();
 }
