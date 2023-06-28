@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="422ddb59-f2df-43f5-be5e-b03d36cfc384" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="260936769726911985-cd87a51bd7c4e466eac63073689e5457e" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2Qx7wWWFwqlQp8XyZ67YRK8taP8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="LINKC_FILTER_ACTION" value="all" />
+    <property name="LINKC_GROUP_BY_USER_ACTION" value="ALL" />
+    <property name="LINKC_SEARCH_ACTION" value="" />
+    <property name="LINKC_SERVICE_ENABLE_KEY" value="0" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alipay.custom.customize.biz.manager.service.es" />
+      <recent name="com.alipay.custom.customize.biz.manager.service.impl" />
+      <recent name="com.alipay.custom.customize.biz.manager.service.es.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alipay.custom.customize.biz.manager.service.es.impl" />
+      <recent name="com.alipay.custom.customize.biz.manager.utils" />
+      <recent name="com.alipay.custom.customize.biz.web.util" />
+      <recent name="com.alipay.custom.customize.biz.web.vo" />
+      <recent name="com.alipay.custom.customize.biz.manager.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="show dependencies" />
+      <command value="show dependencie" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomDemoApplication">
+    <configuration name="ProductDocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customize-biz-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.custom.customize.biz.manager.service.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alipay.custom.customize.biz.manager.service.es" />
+      <option name="MAIN_CLASS_NAME" value="com.alipay.custom.customize.biz.manager.service.es.ProductDocumentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDocumentTest.testAddDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customize-biz-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.custom.customize.biz.manager.service.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alipay.custom.customize.biz.manager.service.es" />
+      <option name="MAIN_CLASS_NAME" value="com.alipay.custom.customize.biz.manager.service.es.ProductDocumentTest" />
+      <option name="METHOD_NAME" value="testAddDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDocumentTest.testGetDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customize-biz-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.custom.customize.biz.manager.service.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alipay.custom.customize.biz.manager.service.es" />
+      <option name="MAIN_CLASS_NAME" value="com.alipay.custom.customize.biz.manager.service.es.ProductDocumentTest" />
+      <option name="METHOD_NAME" value="testGetDocumentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductIndexTest.testExistsProductIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customize-biz-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.custom.customize.biz.manager.service.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alipay.custom.customize.biz.manager.service.es.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alipay.custom.customize.biz.manager.service.es.impl.ProductIndexTest" />
+      <option name="METHOD_NAME" value="testExistsProductIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customize-assembly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.custom.customize.assembly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alipay.custom.customize.assembly.CustomDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductIndexTest.testExistsProductIndex" />
+      <item itemvalue="JUnit.ProductDocumentTest.testAddDocument" />
+      <item itemvalue="JUnit.ProductDocumentTest" />
+      <item itemvalue="JUnit.ProductDocumentTest.testGetDocumentById" />
+      <item itemvalue="Spring Boot.CustomDemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CustomDemoApplication" />
+        <item itemvalue="JUnit.ProductDocumentTest.testGetDocumentById" />
+        <item itemvalue="JUnit.ProductDocumentTest.testAddDocument" />
+        <item itemvalue="JUnit.ProductDocumentTest" />
+        <item itemvalue="JUnit.ProductIndexTest.testExistsProductIndex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="422ddb59-f2df-43f5-be5e-b03d36cfc384" name="Changes" comment="" />
+      <created>1686283622765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686283622765</updated>
+      <workItem from="1686283625119" duration="47990000" />
+      <workItem from="1687239588622" duration="20208000" />
+      <workItem from="1687314372877" duration="25675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/UserServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/accesscontrol/PermissionAspect.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/ProductServiceImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/controller/ElasticSearchController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/custom_parent$ProductDocumentTest_testAddDocument.ic" NAME="ProductDocumentTest.testAddDocument Coverage Results" MODIFIED="1687747563050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.alipay.custom.customize.biz.manager.service.es.*</FILTER>
+    </SUITE>
+  </component>
+</project>

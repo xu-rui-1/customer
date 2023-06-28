@@ -1,0 +1,5 @@
+com/alipay/custom/customize/common/base/enums/CanalEventTypeEnum.class
+com/alipay/custom/customize/common/base/enums/ResultCodeEnum.class
+com/alipay/custom/customize/common/base/constant/RedisConstant.class
+com/alipay/custom/customize/common/base/spring/CustomBaseConfiguration.class
+com/alipay/custom/customize/common/base/exception/ProductBizException.class

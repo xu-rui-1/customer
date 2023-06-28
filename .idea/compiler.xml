@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customize-common-base" />
+        <module name="customize-common-dal" />
+        <module name="customize-assembly" />
+        <module name="customize-biz-web" />
+        <module name="customize-biz-manager" />
+        <module name="customize-mng-common-facade" />
+        <module name="customize-mng-restful-facade" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="custom-biz-manager" target="8" />
+      <module name="customize-biz-mamager" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="custom-biz-manager" options="" />
+      <module name="custom-parent" options="" />
+    </option>
+  </component>
+</project>

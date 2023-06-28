@@ -1,0 +1,17 @@
+com/alipay/custom/customize/biz/web/controller/ProductController.class
+com/alipay/custom/customize/biz/web/config/FilterConfig.class
+com/alipay/custom/customize/biz/web/utils/WebHelper.class
+com/alipay/custom/customize/biz/web/interceptors/JWTInterceptor.class
+com/alipay/custom/customize/biz/web/utils/ProductBaseInfoConvertUtil.class
+com/alipay/custom/customize/biz/web/spring/CustomWebConfiguration.class
+com/alipay/custom/customize/biz/web/vo/UserVO.class
+com/alipay/custom/customize/biz/web/config/Swagger2Config.class
+com/alipay/custom/customize/biz/web/accesscontrol/Permission.class
+com/alipay/custom/customize/biz/web/controller/UserController.class
+com/alipay/custom/customize/biz/web/controller/TestController.class
+com/alipay/custom/customize/biz/web/accesscontrol/PermissionAspect.class
+com/alipay/custom/customize/biz/web/vo/ProductBaseInfoVO.class
+com/alipay/custom/customize/biz/web/accesscontrol/PermissionEnum.class
+com/alipay/custom/customize/biz/web/filter/WebFilter.class
+com/alipay/custom/customize/biz/web/config/InterceptorConfig.class
+com/alipay/custom/customize/biz/web/utils/UserConvertUtil.class

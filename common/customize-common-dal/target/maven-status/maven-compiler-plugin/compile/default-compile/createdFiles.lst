@@ -1,0 +1,13 @@
+com/alipay/custom/customize/common/dal/domain/User.class
+com/alipay/custom/customize/common/dal/domain/UserExample$Criteria.class
+com/alipay/custom/customize/common/dal/dao/ProductBaseInfoMapper.class
+com/alipay/custom/customize/common/dal/domain/ProductBaseInfoExample.class
+com/alipay/custom/customize/common/dal/spring/CustomDalConfiguration.class
+com/alipay/custom/customize/common/dal/domain/ProductBaseInfo.class
+com/alipay/custom/customize/common/dal/domain/UserExample.class
+com/alipay/custom/customize/common/dal/domain/UserExample$GeneratedCriteria.class
+com/alipay/custom/customize/common/dal/dao/UserMapper.class
+com/alipay/custom/customize/common/dal/domain/UserExample$Criterion.class
+com/alipay/custom/customize/common/dal/domain/ProductBaseInfoExample$Criterion.class
+com/alipay/custom/customize/common/dal/domain/ProductBaseInfoExample$GeneratedCriteria.class
+com/alipay/custom/customize/common/dal/domain/ProductBaseInfoExample$Criteria.class

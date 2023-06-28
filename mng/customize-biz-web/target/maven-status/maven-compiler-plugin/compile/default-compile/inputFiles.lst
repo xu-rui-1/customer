@@ -1,0 +1,17 @@
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/config/Swagger2Config.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/interceptors/JWTInterceptor.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/controller/ProductController.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/config/InterceptorConfig.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/controller/TestController.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/accesscontrol/PermissionAspect.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/controller/UserController.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/utils/ProductBaseInfoConvertUtil.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/accesscontrol/PermissionEnum.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/config/FilterConfig.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/utils/WebHelper.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/vo/UserVO.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/spring/CustomWebConfiguration.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/filter/WebFilter.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/vo/ProductBaseInfoVO.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/utils/UserConvertUtil.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-web/src/main/java/com/alipay/custom/customize/biz/web/accesscontrol/Permission.java

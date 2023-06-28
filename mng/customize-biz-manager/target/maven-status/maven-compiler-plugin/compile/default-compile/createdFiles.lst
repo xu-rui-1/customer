@@ -1,0 +1,15 @@
+com/alipay/custom/customize/biz/manager/service/impl/ProductMngServiceFacadeImpl.class
+com/alipay/custom/customize/biz/manager/service/impl/UserServiceImpl.class
+com/alipay/custom/customize/biz/manager/utils/UserServiceUtil.class
+com/alipay/custom/customize/biz/manager/service/ProductService.class
+com/alipay/custom/customize/biz/manager/dto/ProductBaseInfoDTO.class
+com/alipay/custom/customize/biz/manager/utils/RedisCacheUtil.class
+com/alipay/custom/customize/biz/manager/config/RedisConfig.class
+com/alipay/custom/customize/biz/manager/utils/JwtUtils.class
+com/alipay/custom/customize/biz/manager/utils/ProductServiceUtil.class
+com/alipay/custom/customize/biz/manager/dto/UserDTO.class
+com/alipay/custom/customize/biz/manager/service/UserService.class
+com/alipay/custom/customize/biz/manager/service/TestService.class
+com/alipay/custom/customize/biz/manager/spring/CustomizeMngConfiguration.class
+com/alipay/custom/customize/biz/manager/service/impl/ProductServiceImpl.class
+com/alipay/custom/customize/biz/manager/service/impl/TestServiceImpl.class

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.alipay.custom</groupId>
+    <artifactId>custom-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>customize-assembly</module>
+        <module>mng/customize-biz-manager</module>
+        <module>mng/customize-biz-web</module>
+        <module>common/customize-common-dal</module>
+        <module>common/customize-common-base</module>
+        <module>facade/customize-mng-common-facade</module>
+        <module>facade/customize-mng-restful-facade</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <springboot.version>2.7.12</springboot.version>
+        <custom.version>1.0.0</custom.version>
+        <swagger2.version>2.8.0</swagger2.version>
+        <mybatis.version>2.3.0</mybatis.version>
+        <mysql.version>5.1.38</mysql.version>
+        <druid.version>1.2.5</druid.version>
+        <pagehelper.version>1.4.1</pagehelper.version>
+        <fastjson.version>1.2.83</fastjson.version>
+        <canal.version>1.1.4</canal.version>
+        <elasticsearch.version>2.7.3</elasticsearch.version>
+        <hutool.version>5.8.15</hutool.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-test</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+            <!-- custom start-->
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-biz-manager</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-biz-web</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-assembly</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-common-dal</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-common-base</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-mng-common-facade</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-mng-common-facade</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alipay.custom</groupId>
+                <artifactId>customize-mng-restful-facade</artifactId>
+                <version>${custom.version}</version>
+            </dependency>
+            <!-- custom end-->
+
+            <!-- swagger2 start-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger2.version}</version>
+            </dependency>
+            <!-- swagger2 end-->
+
+            <!-- mysql数据库相关依赖 start -->
+            <!-- mybatis -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- 数据库驱动 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- druid连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!-- pagehelper -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.version}</version>
+            </dependency>
+            <!-- mysql数据库相关依赖 end -->
+
+            <!-- java-jwt start -->
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>3.18.2</version>
+            </dependency>
+            <!-- java-jwt end -->
+
+            <!-- redis 依赖 start-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>2.11.1</version>
+            </dependency>
+            <!-- redis 依赖 end-->
+
+            <!-- fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.13.5</version>
+            </dependency>
+
+            <!-- canal.client -->
+            <dependency>
+                <groupId>com.alibaba.otter</groupId>
+                <artifactId>canal.client</artifactId>
+                <version>${canal.version}</version>
+            </dependency>
+
+            <!-- rabbitmq -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-amqp</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+            <!-- elasticsearch -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <!-- hutool-all -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

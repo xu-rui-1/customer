@@ -1,0 +1,15 @@
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/ProductService.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/config/RedisConfig.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/UserService.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/ProductServiceImpl.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/spring/CustomizeMngConfiguration.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/utils/UserServiceUtil.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/utils/JwtUtils.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/utils/RedisCacheUtil.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/TestService.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/TestServiceImpl.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/utils/ProductServiceUtil.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/UserServiceImpl.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/dto/ProductBaseInfoDTO.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/dto/UserDTO.java
+/Users/xurui/Project/custom-parent/mng/customize-biz-manager/src/main/java/com/alipay/custom/customize/biz/manager/service/impl/ProductMngServiceFacadeImpl.java

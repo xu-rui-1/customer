@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.alipay.custom.customize.biz.manager.spring.CustomizeMngConfiguration
