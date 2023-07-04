@@ -65,11 +65,16 @@ public class HotelDTO {
      */
     private String pic;
 
+    /**
+     * 是否是广告*
+     */
+    private boolean isAd;
+
     public HotelDTO() {
     }
 
     public HotelDTO(Long id, String name, String address, Integer price, Integer score, String brand, String city, String starName,
-                    String business, String location, String pic) {
+                    String business, String location, String pic, boolean isAd) {
         this.id = id;
         this.name = name;
         this.address = address;
@@ -81,6 +86,7 @@ public class HotelDTO {
         this.business = business;
         this.location = location;
         this.pic = pic;
+        this.isAd = isAd;
     }
 
     public Long getId() {
@@ -169,5 +175,13 @@ public class HotelDTO {
 
     public void setPic(String pic) {
         this.pic = pic;
+    }
+
+    public boolean isAd() {
+        return isAd;
+    }
+
+    public void setAd(boolean ad) {
+        isAd = ad;
     }
 }
