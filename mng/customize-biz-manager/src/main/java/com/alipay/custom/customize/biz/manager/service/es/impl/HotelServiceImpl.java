@@ -81,7 +81,7 @@ public class HotelServiceImpl implements HotelService {
 
         //获取聚合结果
         Aggregations aggregations = (Aggregations) searchHits.getAggregations();
-        Terms terms = (Terms) aggregations.asMap().get("brand");
+        Terms terms = aggregations.get("agg_name");
         for (Terms.Bucket bucket : terms.getBuckets()) {
             String keyAsString = bucket.getKeyAsString(); //聚合字段列的值
             long docCount = bucket.getDocCount(); //聚合字段对应的数量
